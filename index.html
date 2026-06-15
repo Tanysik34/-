@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чайный Домик</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar bg-light shadow-sm">
+        <div class="container-fluid">
+            <button class="navbar-toggler me-4" type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#sidebarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand me-auto" href="#">
+                <h4 class="me-0">Уютный скандинавский чайный домик</h4>
+            </a>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <!-- Меню слева - ВДОЛЬ ВСЕЙ СТРАНИЦЫ -->
+            <div class="bg-light collapse collapse-horizontal col-auto min-vh-100" id="sidebarMenu">
+                <div class="p-0" style="width: 250px;">  <!-- p-0 убирает отступы -->
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action bg-light py-3">Домик</a>
+                        <a href="pages/menu.html" class="list-group-item list-group-item-action bg-light py-3">Наше меню</a>
+                        <a href="pages/about.html" class="list-group-item list-group-item-action bg-light py-3">О нас</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Контент справа - ВСЯ ОСТАЛЬНАЯ ШИРИНА -->
+            <div class="col p-0">
+                <!-- Герой секция -->
+                <div class="position-relative" style="height: 100vh;">
+                    <div class="position-absolute top-0 start-0 w-100 h-100">
+                        <img src="ам/начало.png" class="w-100 h-100 object-fit-cover" alt="Фон">
+                    </div>
+                    <div class="position-relative d-flex align-items-center justify-content-center h-100">
+                        <div class="text-center">
+                            <h1 class="display-4 fw-bold">Попробуйте наш лучший чай!</h1>
+                            <p class="fs-4 fw-bold">и закажите закусь</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative" style="height: 40vh;">
+                    <div class="position-absolute top-0 start-0 w-100">
+                        <img src="ам/грибыгирлянда2.png" class="w-100  object-fit-cover" alt="Фон">
+                    </div>
+                </div>
+
+                <!-- Весь остальной контент -->
+                <!-- После герой-секции с картинкой и до карточек с пиццей -->
+                <div class="container my-5">
+                    <!-- Заголовок секции -->
+                    <div class="text-center mb-5">
+                        <h2 class="display-6 fw-bold">Мы вот-вот откроемся, приходите по адресу Очередная жральня 14, мы вам не откроем!</h2>
+                        <p class="lead text-muted">Варим наш чай с любовью и заботой о ментальном здоровье.Вкусные закуски совместно с галлюциногенным чаем не оставят вас равнодушными))</p>
+                    </div>
+                    
+                    <!-- Преимущества в три колонки -->
+                    <div class="row g-4 mb-5">
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 bg-light text-center p-4">
+                                <div class="display-1 mb-3">🍄🍵</div>
+                                <h4>Только натуральные грибы, собранные с грядки любимой бабушки</h4>
+                                <p class="text-muted">Свежая продукция каждый день, ни одного отравления, отека квинки и летального случая!</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 bg-light text-center p-4">
+                                <div class="display-1 mb-3">💐⚰️</div>
+                                <h4>Сотрудничаем с цветочными магазинами</h4>
+                                <p class="text-muted">Постоянным клиентам скидка на закупку похоронных цветов</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 border-0 bg-light text-center p-4">
+                                <div class="display-1 mb-3">💣☠️</div>
+                                <h4>Качественный сервис</h4>
+                                <p class="text-muted">Быстро готовим, варим и многое другое! Наши лучшие узбеки-казахи-дагестанцы стоят на защите ваших вкусовых сосочков. Даже услуги эскорта проводим качествено</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- История создания -->
+                    <div class="row align-items-center mb-5">
+                        <div class="col-md-6">
+                            <img src="ам/чайная.png" class="img-fluid rounded-4 shadow" alt="Наш ресторан">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="mb-4">Как появилась эта хрень</h3>
+                            <p class="fs-5">Мы собирались открыть очередную никому не нужную чайную в Выборге, но после участия в проекте "Я в ДЕЛЕ" Нам сказали, что это полная фигня. После чего мы решили скопировать концепцию другого места: <span class="fw-bold text-primary">создать СКАНДИНАВСКУЮ чайную</span>.</p>
+                            <p class="fs-5">Мы все еще ничего из себя не представляем, но украв идею нас впревые похвалили!! И слава богу, ведь люди даже не подозревают, какой чай был у скандинавов.......</p>
+                            <div class="mt-4">
+                                <span class="badge bg-success fs-6 p-3 me-2">-15 лет опыта</span>
+                                <span class="badge bg-warning text-dark fs-6 p-3">50 000+ НЕдовольных клиентов</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Цитата или слоган -->
+                    <div class="row text-center my-5 p-5 bg-light rounded-4">
+                        <div class="col-md-8">
+                            <h1 class="display-4 fst-italic text-muted mb-0">"</h1>
+                            <p class="fs-3 fw-light">Мы не просто варим бурду — мы создаём напитки несовместимые с вашей жизнью!!!!</p>
+                            <p class="fs-5 text-muted mt-3">— Основатель сети, Абдул Травкокуров</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="ам/чел.png" class="img-fluid rounded-4 shadow" alt="Наш ресторан">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
